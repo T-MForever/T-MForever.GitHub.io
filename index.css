@@ -21,8 +21,16 @@
 }
 
 #countDown{
-font: Brush Script;
+text-align: center;
+font: italic;
 }
+
+#countdownheader{
+  text-align: center;
+  font: italic;
+  }
+
+
 
 .weddingParty {
 
@@ -32,19 +40,19 @@ font: Brush Script;
 }
 .bridesMaids {
   display: inline-block;
-  border: 1px solid red;
+  border: 1px solid ;
   padding: 1rem 1rem;
   vertical-align: middle;
 }
 .grooomsmen {
   display: inline-block;
-  border: 1px solid red;
+  border: 1px solid;
   padding: 1rem 1rem;
   vertical-align: middle;
 }
 
 .regsitry{
-  background-image: url(gifts.png);
+
     margin: 1rem;
     padding: 2rem 2rem;
     text-align: center;
@@ -60,7 +68,8 @@ font: Brush Script;
 
    margin-right: auto;
    margin-left: auto;
-   color: #00c5ff;
+
+   text-emphasis-color: 00c5ff;
 
 }
 /* Change the color of links on hover */
